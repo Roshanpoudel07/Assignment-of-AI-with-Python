@@ -1,7 +1,6 @@
 
 def tester(givenstring="Too short"):
     print(givenstring)
-
 def main():
     while True:
         user_input = input("Write something(quit ends):")
@@ -11,5 +10,4 @@ def main():
             tester()
         else:
             tester(user_input)
-
 main()
